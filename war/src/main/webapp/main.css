@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+p {
+    padding: 0px 8px 16px 8px;
+}
+
+h1 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+table {
+    width: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
+    height: 100%;
+    margin: 0 auto -50px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+    height: 50px; /* .push must be the same height as .footer */
+}
+.footer {
+    font-style: italic; 
+    text-align:right; 
+    padding-right: 5px;
+    width: 100%;
+}
+.footer div {
+    margin-top: 8px;
+}
